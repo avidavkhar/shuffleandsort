@@ -1,5 +1,4 @@
 1. How to use system
--	Unzip the ShuffleSortApp folder
 -	Go to the app.html file and open it in chrome browser.
 	
 2. Things can be done
