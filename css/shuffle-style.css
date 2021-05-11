@@ -1,0 +1,205 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #EFEFEF;
+}
+header {
+    -moz-box-shadow-bottom: 0px #000000;
+    -webkit-box-shadow-bottom: 0px #000000;
+    border-bottom-style: 0px #000000;
+    border: 1px solid #FFFFFF;
+    margin: 0;
+    padding: 0em;
+    border-bottom: 0;
+}
+.line {
+    background: #333333;
+    height: 7px;
+    opacity: 0.44;
+    margin-bottom: -7px;
+}
+h1 {
+    text-align: center;
+    font-weight: 100;
+    color: #333;
+}
+aside {
+    float: right;
+}
+section {
+    overflow: hidden;
+    min-height: 170px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    padding: 0.4em 0.9em;
+    margin: 0px -3px;
+    font-size: 6em;
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.li-3,
+.li-5,
+.li-9 {
+    background: #2F454E;
+}
+.li-2,
+.li-4 {
+    background: #2B8EAD;
+}
+.li-1,
+.li-8 {
+    background: #6F98A8;
+}
+.li-6,
+.li-7 {
+    background: #BFBFBF;
+}
+
+span.clsFooter {
+    font-style: italic;
+}
+
+.btn {
+    overflow: visible;
+    display: block;
+    width: 240px;
+    position: relative;
+    top: 0px;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #F8F0F0;
+    padding: 15px 50px;
+    margin: 25px 22px 0 10px;
+    border: 1px solid #C4C4C4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 0px #C4C4C4;
+    -moz-box-shadow: 0px 5px 0px #C4C4C4;
+    -ms-box-shadow: 0px 5px 0px #C4C4C4;
+    -o-box-shadow: 0px 5px 0px #C4C4C4;
+    box-shadow: 0px 5px 0px #C4C4C4;
+    color: #222222;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    -webkit-transition: All 250ms ease;
+    -moz-transition: All 250ms ease;
+    -o-transition: All 250ms ease;
+    -ms-transition: All 250ms ease;
+    transition: All 250ms ease;
+    padding: 0.8em 2em;
+}
+
+.btn:active {
+    position: relative;
+    top: 5px;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: All 250ms ease;
+    -moz-transition: All 250ms ease;
+    -o-transition: All 250ms ease;
+    -ms-transition: All 250ms ease;
+    transition: All 250ms ease;
+}
+
+.btn.blue {
+    background: #72C3DC;
+    color: #FFFFFF;
+    border: 1px solid #2B8EAD;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 0px #2B8EAD;
+    -moz-box-shadow: 0px 5px 0px #2B8EAD;
+    -ms-box-shadow: 0px 5px 0px #2B8EAD;
+    -o-box-shadow: 0px 5px 0px #2B8EAD;
+    box-shadow: 0px 5px 0px #2B8EAD;
+    text-shadow: 1px 1px 1px #2B8EAD;
+    font-weight: 100;
+}
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    color: #333333;
+    padding: 5px;
+}
+@media screen and (min-width: 375px) and (max-width: 960px) {
+    .wrapper {
+        background: none;
+        width: 100%;
+    }
+    .line {
+        display: none;
+    }
+    aside {
+        float: none;
+        margin: 1em;
+        width: auto;
+        border: 0;
+        text-align: center;
+    }
+    header {
+        background: #333333;
+        color: #FFFFFF;
+    }
+    h1 {
+        color: #FFFFFF;
+        height: 60px;
+    }
+    .btn {
+        overflow: visible;
+        padding: 15px 25px;
+        display: inline-block;
+        margin: 10px;
+        width: 135px;
+    }
+    ul li {
+        list-style: none;
+        padding: 0.3em;
+        display: block;
+        margin: 0;
+        color: #333333;
+        font-size: 3em;
+        text-align: center;
+    }
+    .li-1,
+    .li-2,
+    .li-3,
+    .li-4,
+    .li-5,
+    .li-6,
+    .li-7,
+    .li-8,
+    .li-9 {
+        background: #EFEFEF;
+        margin-bottom: 10px;
+    }
+    .li-3,
+    .li-5,
+    .li-9 {
+        border-left: 0.3em solid #2F454E;
+    }
+    .li-2,
+    .li-4 {
+        border-left: 0.3em solid #2B8EAD;
+    }
+    .li-1,
+    .li-8 {
+        border-left: 0.3em solid #6F98A8;
+    }
+    .li-6,
+    .li-7 {
+        border-left: 0.3em solid #BFBFBF;
+    }
+}
